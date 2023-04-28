@@ -1,11 +1,13 @@
-import { useState } from 'react'
+import Navbar from "../components/Navbar"
 
 function LandingPage() {
   
 
   return (
-    <>asd123</>
+    <>
+      <Navbar/>
+    </>
   )
 }
 
-export default App
+export default LandingPage
