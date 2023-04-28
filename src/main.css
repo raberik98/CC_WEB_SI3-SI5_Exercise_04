@@ -16,3 +16,11 @@ nav {
     font-size: 2rem;
 }
 
+table {
+    margin: 5rem;
+    border: 5px solid black;
+    width: 90vw;
+}
+
+
+

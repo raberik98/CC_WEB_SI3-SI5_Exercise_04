@@ -11,3 +11,5 @@ and search for any potential illegal activities.
 3, Though to the low budget of this research the backend server is very unreliable, modify the fetch in a way where in case of an unsuccessfull request we will repeate the process again,
     but in order to not cause any issues we want to add a delay to the new request, the delay should increase exponentially, 
     meaning that after the first unsuccessfull fetch it will wait 0.2 second than 0.5 than 1 than 2 than 3 and than it will keep sending a request after every 3 second until we could successfully fetch what we wanted.
+
+4, While we don't have the data we need display a "LOADING" text on the screen and after we received our data let's display them in a table in the main page.
